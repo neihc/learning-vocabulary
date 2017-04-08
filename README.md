@@ -8,3 +8,11 @@ curl https://raw.githubusercontent.com/nguyenchien97/learning-vocabulary/master/
 ```
 
 Step2. Restart your terminal, Enjoy!
+
+## Learn via Notification
+Run:
+```
+python ~/nof-vocab.py &
+```
+
+(30 minutes/word)

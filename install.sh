@@ -4,6 +4,8 @@ sudo pip install termcolor
 
 wget -O ~/vocab-data.json "https://raw.githubusercontent.com/nguyenchien97/learning-vocabulary/master/5000-english-words.json" --no-check-certificate
 wget -O ~/vocab.py "https://raw.githubusercontent.com/nguyenchien97/learning-vocabulary/master/vocab.py" --no-check-certificate
+wget -O ~/nof-vocab.py "https://raw.githubusercontent.com/nguyenchien97/learning-vocabulary/master/nof-vocab.py" --no-check-certificate
+wget -O ~/icon.png "https://raw.githubusercontent.com/nguyenchien97/learning-vocabulary/master/icon.png" --no-check-certificate
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	OSBASHRC=bashrc
