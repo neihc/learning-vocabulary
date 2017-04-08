@@ -2,7 +2,7 @@ import json
 import random
 from termcolor import cprint
 
-with open("5000-english-words.json") as data_file:
+with open("vocab-data.json") as data_file:
     data = json.load(data_file)
 
 word = random.choice(data)
